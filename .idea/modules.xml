@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CombinationalService.iml" filepath="$PROJECT_DIR$/.idea/CombinationalService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConsumerA/ConsumerA.iml" filepath="$PROJECT_DIR$/ConsumerA/ConsumerA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConsumerB/ConsumerB.iml" filepath="$PROJECT_DIR$/ConsumerB/ConsumerB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gateway/Gateway.iml" filepath="$PROJECT_DIR$/Gateway/Gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SendHttp/SendHttp.iml" filepath="$PROJECT_DIR$/SendHttp/SendHttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServerProviderE/ServerProviderE.iml" filepath="$PROJECT_DIR$/ServerProviderE/ServerProviderE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sidecar/Sidecar.iml" filepath="$PROJECT_DIR$/Sidecar/Sidecar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SidecarPython/SidecarPython.iml" filepath="$PROJECT_DIR$/SidecarPython/SidecarPython.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServerProviderC/serverproviderc.iml" filepath="$PROJECT_DIR$/ServerProviderC/serverproviderc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServerProviderD/serverproviderd.iml" filepath="$PROJECT_DIR$/ServerProviderD/serverproviderd.iml" />
+    </modules>
+  </component>
+</project>

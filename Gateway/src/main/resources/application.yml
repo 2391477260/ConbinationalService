@@ -1,0 +1,27 @@
+eureka:
+  instance:
+    #租期更新时间间隔（默认30秒）
+    lease-expiration-duration-in-seconds: 10
+    #租期到期时间（默认90秒）
+    lease-renewal-interval-in-seconds: 30
+  client:
+    serviceUrl:
+      defaultZone: http://169.254.95.96:8100/eureka/
+server:
+  port: 8101
+spring:
+  application:
+    name: gateway
+zuul:
+  #路由转发
+  routes:
+    eureka-consumer-a: /eureka-consumer-A/**
+    eureka-consumer-b: /eureka-consumer-B/**
+    eureka-provider-c: /eureka-provider-C/**
+    eureka-provider-d: /eureka-provider-D/**
+    eureka-provider-e: /eureka-provider-E/**
+    microservice-sidecar: /microservice-sidecar/**
+    microservice-sidecar-python: /microservice-sidecar-python/**
+  #路由前缀
+  prefix: /api
+

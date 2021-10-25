@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Sidecar" />
+        <module name="SidecarFeign" />
+        <module name="eureka" />
+        <module name="serverproviderd" />
+        <module name="serverproviderc" />
+        <module name="ServerProviderE" />
+        <module name="Gateway" />
+        <module name="ConsumerB" />
+        <module name="ConsumerA" />
+        <module name="SidecarPython" />
+        <module name="SendHttp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ConsumerA" target="1.8" />
+      <module name="ConsumerB" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="Gateway" target="1.8" />
+      <module name="SendHttp" target="1.5" />
+      <module name="serverproviderc" target="1.8" />
+      <module name="serverproviderd" target="1.8" />
+      <module name="ServerProviderE" target="1.8" />
+      <module name="ServerUserD" target="1.8" />
+      <module name="Sidecar" target="1.8" />
+      <module name="SidecarFeign" target="1.8" />
+      <module name="SidecarPython" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ConsumerA" options="" />
+      <module name="ConsumerB" options="" />
+      <module name="Gateway" options="" />
+      <module name="ServerProviderE" options="" />
+      <module name="ServerUserD" options="" />
+      <module name="Sidecar" options="" />
+      <module name="SidecarFeign" options="" />
+      <module name="SidecarPython" options="" />
+      <module name="eureka" options="" />
+      <module name="serverproviderc" options="" />
+      <module name="serverproviderd" options="" />
+    </option>
+  </component>
+</project>

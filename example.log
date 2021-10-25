@@ -1,0 +1,661 @@
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8105][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8105][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8105
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8105
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:60913<->127.0.0.1:8105
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request POST /microservice-sidecar/strReserve HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> POST /microservice-sidecar/strReserve HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Authorization: Basic YWRtaW46
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Length: 53
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: localhost:8105
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "POST /microservice-sidecar/strReserve HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Authorization: Basic YWRtaW46[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Length: 53[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8105[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "{"TaskCode":"0","Opinion":"test","AreaCode":"520181"}"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Application-Context: gateway:8105[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Tue, 17 Aug 2021 08:32:31 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "2c[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "{"username": "python", "password": "python"}[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Application-Context: gateway:8105
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Tue, 17 Aug 2021 08:32:31 GMT
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://localhost:8105] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8105][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8105][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8105][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8105
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8105
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:56347<->127.0.0.1:8105
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request POST /microservice-sidecar/strReserve HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> POST /microservice-sidecar/strReserve HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Authorization: Basic YWRtaW46
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Length: 53
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: localhost:8105
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "POST /microservice-sidecar/strReserve HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Authorization: Basic YWRtaW46[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Length: 53[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8105[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "{"TaskCode":"0","Opinion":"test","AreaCode":"520181"}"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 500 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Application-Context: gateway:8105[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Tue, 17 Aug 2021 08:36:54 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: text/html;charset=utf-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Connection: close[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "122[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<title>500 Internal Server Error</title>[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<h1>Internal Server Error</h1>[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 500 
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Application-Context: gateway:8105
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Tue, 17 Aug 2021 08:36:54 GMT
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: text/html;charset=utf-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG main org.apache.http.headers - http-outgoing-0 << Connection: close
+DEBUG main org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8105][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8105][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8105][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8105
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8105
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:52940<->127.0.0.1:8105
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request POST /microservice-sidecar/strReserve HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> POST /microservice-sidecar/strReserve HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Authorization: Basic YWRtaW46
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Length: 53
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: localhost:8105
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "POST /microservice-sidecar/strReserve HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Authorization: Basic YWRtaW46[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Length: 53[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8105[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "{"TaskCode":"0","Opinion":"test","AreaCode":"520181"}"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Application-Context: gateway:8105[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Tue, 17 Aug 2021 08:38:23 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "2c[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "{"username": "python", "password": "python"}[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Application-Context: gateway:8105
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Tue, 17 Aug 2021 08:38:23 GMT
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://localhost:8105] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8105][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8105][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8105][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8105
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8105
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:64926<->127.0.0.1:8105
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request POST /microservice-sidecar/strReserve HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> POST /microservice-sidecar/strReserve HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Authorization: Basic YWRtaW46
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Length: 51
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: localhost:8105
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "POST /microservice-sidecar/strReserve HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Authorization: Basic YWRtaW46[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Length: 51[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8105[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "{"location":"hnust","age":"18","username":"[0xe7][0xae][0x80][0xe5][0xb7][0x8d]"}"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Application-Context: gateway:8105[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Tue, 17 Aug 2021 08:43:27 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "2c[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "{"username": "python", "password": "python"}[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Application-Context: gateway:8105
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Tue, 17 Aug 2021 08:43:27 GMT
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://localhost:8105] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8105][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8105][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8105][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8105
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8105
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:52272<->127.0.0.1:8105
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request POST /microservice-sidecar/strReserve HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> POST /microservice-sidecar/strReserve HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Authorization: Basic YWRtaW46
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Length: 51
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: localhost:8105
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "POST /microservice-sidecar/strReserve HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Authorization: Basic YWRtaW46[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Length: 51[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8105[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "{"location":"hnust","age":"18","username":"[0xe7][0xae][0x80][0xe5][0xb7][0x8d]"}"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Application-Context: gateway:8105[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Tue, 17 Aug 2021 08:50:20 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "2c[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "{"username": "python", "password": "python"}[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Application-Context: gateway:8105
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Tue, 17 Aug 2021 08:50:20 GMT
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://localhost:8105] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8105][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8105][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8105][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8105
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8105
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:65070<->127.0.0.1:8105
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request POST /microservice-sidecar/strReserve HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> POST /microservice-sidecar/strReserve HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Authorization: Basic YWRtaW46
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Length: 51
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: localhost:8105
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "POST /microservice-sidecar/strReserve HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Authorization: Basic YWRtaW46[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Length: 51[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8105[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "{"location":"hnust","age":"18","username":"[0xe7][0xae][0x80][0xe5][0xb7][0x8d]"}"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Application-Context: gateway:8105[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Tue, 17 Aug 2021 08:52:46 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "2c[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "{"username": "python", "password": "python"}[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Application-Context: gateway:8105
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Tue, 17 Aug 2021 08:52:46 GMT
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://localhost:8105] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8105][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8105][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8105][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8105
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8105
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:56135<->127.0.0.1:8105
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request POST /microservice-sidecar/strReserve HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> POST /microservice-sidecar/strReserve HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Authorization: Basic YWRtaW46
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Length: 51
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: localhost:8105
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "POST /microservice-sidecar/strReserve HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Authorization: Basic YWRtaW46[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Length: 51[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8105[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "{"location":"hnust","age":"18","username":"[0xe7][0xae][0x80][0xe5][0xb7][0x8d]"}"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Application-Context: gateway:8105[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Tue, 17 Aug 2021 08:57:26 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "19[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "["t", "s", "u", "n", "h"][\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Application-Context: gateway:8105
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Tue, 17 Aug 2021 08:57:26 GMT
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://localhost:8105] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8105][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8105][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8105][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8105
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8105
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connect to localhost/127.0.0.1:8105 timed out. Connection will be retried using another IP address
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/0:0:0:0:0:0:0:1:8105
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Shutdown connection
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8105][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8106][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8106][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8106
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8106
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:50382<->127.0.0.1:8106
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request POST /microservice-sidecar/strReserve HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> POST /microservice-sidecar/strReserve HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Authorization: Basic YWRtaW46
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Length: 51
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: localhost:8106
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "POST /microservice-sidecar/strReserve HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Authorization: Basic YWRtaW46[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Length: 51[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8106[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "{"location":"hnust","age":"18","username":"[0xe7][0xae][0x80][0xe5][0xb7][0x8d]"}"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 404 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Application-Context: microservice-sidecar:8106[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Thu, 23 Sep 2021 02:23:08 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "87[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "{"timestamp":1632363788092,"status":404,"error":"Not Found","message":"No message available","path":"/microservice-sidecar/strReserve"}[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 404 
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Application-Context: microservice-sidecar:8106
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 23 Sep 2021 02:23:08 GMT
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://localhost:8106] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8106][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8106][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8106][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8106
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8106
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:57766<->127.0.0.1:8106
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request POST /microservice-sidecar/getUser HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> POST /microservice-sidecar/getUser HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Authorization: Basic YWRtaW46
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Length: 51
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: localhost:8106
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "POST /microservice-sidecar/getUser HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Authorization: Basic YWRtaW46[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Length: 51[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8106[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "{"location":"hnust","age":"18","username":"[0xe7][0xae][0x80][0xe5][0xb7][0x8d]"}"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 404 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Application-Context: microservice-sidecar:8106[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Thu, 23 Sep 2021 02:25:03 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "84[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "{"timestamp":1632363903239,"status":404,"error":"Not Found","message":"No message available","path":"/microservice-sidecar/getUser"}[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 404 
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Application-Context: microservice-sidecar:8106
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 23 Sep 2021 02:25:03 GMT
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://localhost:8106] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8106][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8106][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8106][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8106
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8106
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:57881<->127.0.0.1:8106
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request POST /getUser HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> POST /getUser HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Authorization: Basic YWRtaW46
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Length: 51
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: localhost:8106
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "POST /getUser HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Authorization: Basic YWRtaW46[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Length: 51[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8106[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "{"location":"hnust","age":"18","username":"[0xe7][0xae][0x80][0xe5][0xb7][0x8d]"}"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 404 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Application-Context: microservice-sidecar:8106[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Thu, 23 Sep 2021 02:26:57 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "6f[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "{"timestamp":1632364017198,"status":404,"error":"Not Found","message":"No message available","path":"/getUser"}[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 404 
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Application-Context: microservice-sidecar:8106
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 23 Sep 2021 02:26:57 GMT
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://localhost:8106] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8106][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8106][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8106][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8106
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8106
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:57916<->127.0.0.1:8106
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request POST /strReserve HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> POST /strReserve HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Authorization: Basic YWRtaW46
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Length: 51
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: localhost:8106
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "POST /strReserve HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Authorization: Basic YWRtaW46[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Length: 51[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8106[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "{"location":"hnust","age":"18","username":"[0xe7][0xae][0x80][0xe5][0xb7][0x8d]"}"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 404 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Application-Context: microservice-sidecar:8106[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Thu, 23 Sep 2021 02:28:49 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "72[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "{"timestamp":1632364129378,"status":404,"error":"Not Found","message":"No message available","path":"/strReserve"}[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 404 
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Application-Context: microservice-sidecar:8106
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 23 Sep 2021 02:28:49 GMT
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://localhost:8106] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8106][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8106][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8106][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8106
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8106
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:64277<->127.0.0.1:8106
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request POST /strReserve HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> POST /strReserve HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Authorization: Basic YWRtaW46
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Length: 51
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: localhost:8106
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "POST /strReserve HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Authorization: Basic YWRtaW46[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Length: 51[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8106[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "{"location":"hnust","age":"18","username":"[0xe7][0xae][0x80][0xe5][0xb7][0x8d]"}"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 404 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Application-Context: microservice-sidecar:8106[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Thu, 23 Sep 2021 04:18:12 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "72[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "{"timestamp":1632370692678,"status":404,"error":"Not Found","message":"No message available","path":"/strReserve"}[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 404 
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Application-Context: microservice-sidecar:8106
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 23 Sep 2021 04:18:12 GMT
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://localhost:8106] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8106][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8106][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8106][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8106
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8106
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:63685<->127.0.0.1:8106
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request POST /strReserve HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> POST /strReserve HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Authorization: Basic YWRtaW46
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Length: 51
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: localhost:8106
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "POST /strReserve HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Authorization: Basic YWRtaW46[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Length: 51[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8106[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "{"location":"hnust","age":"18","username":"[0xe7][0xae][0x80][0xe5][0xb7][0x8d]"}"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 404 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Application-Context: microservice-sidecar:8106[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Thu, 23 Sep 2021 04:20:50 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "72[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "{"timestamp":1632370850697,"status":404,"error":"Not Found","message":"No message available","path":"/strReserve"}[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 404 
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Application-Context: microservice-sidecar:8106
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 23 Sep 2021 04:20:50 GMT
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://localhost:8106] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8106][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8105][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8105][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8105
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8105
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:64671<->127.0.0.1:8105
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request POST /api/microservice-sidecar/strReserve HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> POST /api/microservice-sidecar/strReserve HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Authorization: Basic YWRtaW46
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Content-Length: 51
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: localhost:8105
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "POST /api/microservice-sidecar/strReserve HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Authorization: Basic YWRtaW46[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Content-Length: 51[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8105[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "{"location":"hnust","age":"18","username":"[0xe7][0xae][0x80][0xe5][0xb7][0x8d]"}"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 500 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Application-Context: gateway:8105[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Thu, 23 Sep 2021 04:26:43 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Connection: close[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "93[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "{"timestamp":1632371203292,"status":500,"error":"Internal Server Error","exception":"com.netflix.zuul.exception.ZuulException","message":"GENERAL"}[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 500 
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Application-Context: gateway:8105
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 23 Sep 2021 04:26:43 GMT
+DEBUG main org.apache.http.headers - http-outgoing-0 << Connection: close
+DEBUG main org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8105][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]

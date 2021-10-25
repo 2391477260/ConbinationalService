@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: microservice-sidecar
+server:
+  port: 8107
+eureka:
+  instance:
+    #租期更新时间间隔（默认30秒）
+    lease-expiration-duration-in-seconds: 10
+    #租期到期时间（默认90秒）
+    lease-renewal-interval-in-seconds: 500
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://169.254.95.96:8100/eureka/
+sidecar:
+  port: 3000
+  health-uri: http://localhost:3000/health
+
